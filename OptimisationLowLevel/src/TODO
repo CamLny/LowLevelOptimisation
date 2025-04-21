@@ -1,0 +1,16 @@
+display shapes
+randomized placement
+randomized attractors
+override new/delete to show memory stats
+insert tracy probes
+refactor to multiple files and better names
+
+update ppt to include exercices to go further
+check what I have put in the ppt
+check my notebooks to be sure the ppt has everything
+- cpu -> arch -> assembly
+- memory
+- threads -> atomics
+- compiler
+- build environment
+- specifics of video games

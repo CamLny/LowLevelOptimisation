@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\imgui">
+      <UniqueIdentifier>{f7ee544d-570e-44ec-ae07-8c361c3c9173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\imgui">
+      <UniqueIdentifier>{9b00d453-b13f-4625-998b-bd1e204f5fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\glad">
+      <UniqueIdentifier>{8cb01d12-b36d-40d2-b04f-6f1ea0bb3232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\glad">
+      <UniqueIdentifier>{5b2d11b1-27d8-46d3-8066-778769574357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\imgui\backends">
+      <UniqueIdentifier>{f65d8f4f-b360-4306-86f6-8b53a5e94dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\imgui\backends">
+      <UniqueIdentifier>{171b9726-2c30-45ca-8725-8691d4c39556}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glad\glad.h">
+      <Filter>Fichiers d%27en-tête\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\backends\imgui_impl_glfw.h">
+      <Filter>Fichiers d%27en-tête\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Fichiers d%27en-tête\imgui\backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad\glad.c">
+      <Filter>Fichiers sources\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="tracy-0.11.1\tracy-0.11.1\public\TracyClient.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
